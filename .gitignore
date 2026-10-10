@@ -1,0 +1,28 @@
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+
+# 本地便携版 PostgreSQL 运行时与数据（.local/pgsql.zip、pgsql/、pgdata/）
+.local/
+
+# 环境变量与密钥（仅保留 .env.example 作为模板）
+.env
+.env.local
+*.local
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+
+# 本地打包快照（不入库）
+/aido.zip
+*.zip.bak
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
